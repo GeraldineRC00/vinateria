@@ -8,8 +8,8 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // ====== CLAVES VAPID (PON TUS DOS CLAVES AQUÍ) ======
-const publicVapidKey = "AQUI_TU_CLAVE_PUBLICA";
-const privateVapidKey = "AQUI_TU_CLAVE_PRIVADA";
+const publicVapidKey = "BI0yGOOX65GzWPS2atWV9LazcHnGAV-sEliAGLSk0VVw4dCIU6O651yoktDfrTyUu7XRqyDKy2ZDdyhiYXUdbgk";
+const privateVapidKey = "cDp_ESZxuGlGajpKsU7yguCq1c7StAsM3QGamcJiTbk";
 
 webpush.setVapidDetails(
     "mailto:tu-correo@example.com",
